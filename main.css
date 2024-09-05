@@ -1,0 +1,39 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 30px 0px;
+    background-color: white;
+    justify-content: center;
+    padding: 80px 50px 50px 80px;
+    }
+body{
+    background-color: white;
+    font-family:"Poppins",sans-serif;
+}
+.a{
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: white;
+    width: 350px;
+    box-shadow: 10px -10px 10px 10px #F5F1EE;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+}
+.a>p{
+    padding-left: 10px ;
+    font-size: large;
+    color: #838484;
+}
+.head h3{
+    font-weight: bolder;
+}
+.head p{
+    color: rgb(181,136,53);
+    font-weight:bolder;
+}
+
+
